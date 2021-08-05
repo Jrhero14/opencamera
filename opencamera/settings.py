@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-w1q1ehe!06ty-0gjg!*=1yd$*6plo(&ou*41rm%voqzr=a$#u1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangocamera.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition

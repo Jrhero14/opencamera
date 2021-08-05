@@ -28,9 +28,9 @@ class VideoCamera(object):
 
     def get_frame(self):
         image = self.frame
-        faces = self.detect_faces(img=image)
-        for item in faces:
-            self.draw_rectangle(img=image, rect=item['rect'])
+        # faces = self.detect_faces(img=image)
+        # for item in faces:
+        #     self.draw_rectangle(img=image, rect=item['rect'])
         _, jpeg = cv2.imencode('.jpg', image)
         return jpeg.tobytes()
 
